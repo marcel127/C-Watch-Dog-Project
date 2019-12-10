@@ -1,5 +1,5 @@
-#ifndef OL66_WATCH_DOG
-#define OL66_WATCH_DOG
+#ifndef _WATCH_DOG
+#define _WATCH_DOG
 
 /*        Creates a Watchdog process to keep calling process alive.
         arguments:
@@ -22,4 +22,4 @@ int WDKeepAlive(const char *abs_app_path,
 */
 void WDFree(void);
 
-#endif /* OL66_WATCH_DOG */
+#endif /* _WATCH_DOG */
